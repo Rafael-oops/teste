@@ -70,13 +70,13 @@ export const INITIAL_STATE = {
         { id: 2, date: "2025-09-16 16:00", professional: "Psicóloga Solange", status: "confirmed" },
     ],
     availableSlots: [
-        { date: "2025-10-03", time: "09:00", available: true },
-        { date: "2025-10-03", time: "10:00", available: false },
-        { date: "2025-10-03", time: "11:00", available: true },
-        { date: "2025-10-03", time: "14:00", available: true },
-        { date: "2025-10-03", time: "15:00", available: true },
-        { date: "2025-10-03", time: "16:00", available: false },
-        { date: "2025-10-04", time: "22:00", available: true },
+        { date: "2025-10-07", time: "09:00", available: true },
+        { date: "2025-10-07", time: "10:00", available: false },
+        { date: "2025-10-07", time: "11:00", available: true },
+        { date: "2025-10-07", time: "14:00", available: true },
+        { date: "2025-10-07", time: "15:00", available: true },
+        { date: "2025-10-07", time: "16:00", available: false },
+        { date: "2025-10-07", time: "22:00", available: true },
     ],
     moodHistory: [
         // CORREÇÃO: Padronizado para 'neutro' para consistência
@@ -102,4 +102,5 @@ export const NAV_ITEMS = [
     { id: 'history', label: 'Meu Histórico', icon: 'file-text' },
     { id: 'messages', label: 'Mensagens', icon: 'mail' },
     { id: 'guidance', label: 'Orientações', icon: 'heart' },
+
 ];
